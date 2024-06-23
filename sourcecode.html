@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="UTF-8">
+    <title>The Holy Touch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#booking">Book A Spot</a></li>
+            <li><a href="#price">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</header>
+<section id="home">
+    <div id="container1all">
+        <div id="container">
+            <h2>Welcome to the Holy Touch</h2>
+            <p> We're delighted to welcome you to our online space dedicated to beauty, relaxation, and rejuvenation. Explore our website to discover our services, meet our talented team, and find inspiration for your next beauty appointment. We look forward to pampering you soon and helping you look and feel your absolute best!</p>
+            <div id="booknow">
+                <img src="calendar.png" height="512" width="512"/>
+                <a href="#booking">BOOK NOW!</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="team">
+    <div id="fullteam">
+
+        <div id="owner">
+            <img src="owner.jpg" height="716" width="537"/>
+            <div id="content">
+                <h2>Kate Baldwin</h2>
+                <p>Kate is the proud owner of The Holy Touch, a premier beauty salon located in the heart of Miami. With over a decade of experience in the beauty industry, Kate combines her passion for aesthetics with a keen business acumen to create a luxurious and welcoming environment for her clients. She is a certified cosmetologist and has trained with some of the top professionals in the field. Under her leadership, The Holy Touch specializes in nail care, makeup artistry, and waxing services, all delivered with the highest standards of quality and care.</p>
+                </div>
+        </div>
+        <div id="nails">
+            <div id="nt1">
+                <img src="nail1.jpg" height="1184" width="888"/>
+                <div id="nc1">
+                    <h2>Emily Davenport</h2>
+                    <p>With over five years of experience in the nail industry, Emily Davenport specializes in intricate nail art and gel manicures. She has a keen eye for detail and a passion for creating unique designs that cater to her clients' individual styles. Emily frequently attends workshops to stay updated with the latest trends and techniques.</p>
+                </div>
+            </div>
+            <div id="nt2">
+                <img src="nail2.jpg" height="1393" width="1044"/>
+                <div id="nc2">
+                    <h2>Olivia Klein</h2>
+                    <p>Olivia is a certified nail technician with a focus on natural nail care and health. She excels in providing relaxing and rejuvenating manicure and pedicure treatments. Olivia's commitment to using high-quality, non-toxic products has made her a favorite among clients who prioritize both beauty and wellness.</p>
+                </div>
+            </div>
+        </div>
+        <div id="makeup">
+
+            <div id="mp1">
+                <img src="makeup1.jpg" height="775" width="581"/>
+                <div id="mc1">
+                    <h2>Sarah Whitman</h2>
+                    <p>Sarah has been a professional makeup artist for eight years, working primarily in bridal and special event makeup. Her ability to enhance her clients' natural beauty while creating stunning, camera-ready looks has earned her a loyal following. Sarah is also skilled in makeup for photoshoots and editorial work, where her creativity shines.</p>
+                </div>
+            </div>
+            <div id="mp2">
+                <img src="makeup2.jpg" height="784" width="588"/>
+                <div id="mc2">
+                    <h2>Mia Hawthorne</h2>
+                    <p>Mia, a makeup artist with six years of experience, specializes in high-fashion and avant-garde makeup. She has collaborated with numerous designers and photographers, bringing bold and innovative looks to life. Mia's artistic approach and attention to detail have made her a standout in the competitive world of fashion makeup.</p>
+                </div>
+            </div>
+        </div>
+        <div id="wax">
+
+            <div id="wt1">
+                <img src="wax1.jpg" height="704" width="529"/></div>
+            <div id="wc1">
+                <h2>Isabella Sinclair</h2>
+                <p>Isabella is a seasoned wax technician with a decade of experience in providing gentle and effective hair removal services. She is known for her precision and ability to make clients feel comfortable during their appointments. Isabella's expertise in various waxing techniques ensures smooth and long-lasting results for her clients.</p>
+            </div>
+            <div id="wt2">
+                <img src="wax2.jpg" height="603" width="451"/></div>
+            <div id="wc2">
+                <h2>
+                    Amelia Winslow</h2>
+                <p>Amelia has been a dedicated wax technician for over seven years, specializing in Brazilian and full-body waxing. Her warm demeanor and professional skills help put clients at ease, making the waxing process as painless as possible. Amelia is committed to maintaining the highest standards of hygiene and customer satisfaction in her practice.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="booking">
+
+    <div id="formcontainer">
+        <h1>Booking form</h1>
+    <form>
+        <header>Please submit your name:</header>
+        <label for="name">First name:</label>
+        <input type="text" id="name" name="name" required >
+        <label for="surname">Last name:</label>
+        <input type="text" id="surname" name="surname" required>
+    </form>
+    <form>
+        <header>Please choose your service:</header>
+        <input type="checkbox" id="Nail" name="Nail" value="Nails">
+        <label for="Nail"> Nail Appointment </label>
+        <input type="checkbox" id="Makeups" name="Makeup" value="Makeup">
+        <label for="Makeups"> Makeup Appointment </label>
+        <input type="checkbox" id="Waxing" name="Waxing" value="Wax">
+        <label for="Waxing"> Wax Appointment</label>
+    </form>
+        <form>
+            <label for="Artist">Please choose an artist:</label>
+            <select id="artist" name="artist">
+                <option value="Emilyt">Emily</option>
+                <option value="Olivia">Olivia</option>
+                <option value="Sarah">Sarah</option>
+                <option value="Mia">Mia</option>
+                <option value="Isabella">Isabella</option>
+                <option value="Amelia">Amelia</option>
+            </select>
+        </form>
+        <form>
+            <label for="appttime">Please choose an available date and time:</label>
+            <input type="datetime-local" id="appttime" name="apptime">
+        </form>
+        <form>
+            <label for="phone">Enter a phone number:</label>
+            <input type="tel" id="phone" name="phone" size="30" required
+                   placeholder="+305-xx-xxx-xxx"
+                   pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </form>
+        <input type="SUBMIT" id="submit">
+    </div>
+    <p>You'll receive a confirmation text soon!</p>
+</section>
+<section id="price">
+
+    <div id="pricecont">
+        <h1>Pricing List</h1>
+    <div>
+        <img src="nail-polish.png">
+        <p>Nail Prices</p>
+
+    </div>
+        <div class="lists">
+            <ul>
+                <li>Classic manicure: $25</li>
+                <li>Gel manicure: $35</li>
+                <li>French manicure: $30</li>
+                <li>Classic pedicure: $35</li>
+                <li>Gel pedicure: $45</li>
+                <li>French pedicure: $40</li>
+                <li>Acrylic Full Set: $50</li>
+                   <li> Gel Full Set: $55</li>
+                    <li>Nail Art: $5+ per nail</li>
+            </ul>
+        </div>
+    <div>
+        <img src="cosmetics.png">
+        <p>Makeup Prices</p>
+    </div>
+        <div class="lists">
+            <ul>
+                <li>Basic Makeup Application: $50</li>
+                <li>Special Occasion Makeup: $75</li>
+                <li>Bridal Makeup (includes trial): $150</li>
+                <li>Airbrush Makeup: $100</li>
+                <li>Eyes Only Makeup: $30</li>
+                <li>Eyelash Application: $20</li>
+                <li>Makeup Lesson (1 hour): $80</li>
+                <li> Group Makeup Lesson (2 hours, up to 5 people): $300</li>
+            </ul>
+        </div>
+    <div>
+        <img src="wax.png">
+        <p>Wax Prices</p>
+    </div>
+        <div class="lists">
+            <ul>
+                <li>Eyebrow Wax: $20</li>
+                <li>Lip Wax: $15</li>
+                <li>Full Face Wax: $50</li>
+                <li>Underarm Wax: $25</li>
+                <li>Arm Wax (Full): $50</li>
+                <li>Leg Wax (Full): $70</li>
+                <li>Bikini Wax: $40</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div>
+        <img src="—Pngtree—beauty%20logo_7601948.png"/>
+        <div id="side">
+            <h1>You can contact us on:</h1>
+            <div id="fb">
+            <img src="facebook.png" height="512" width="512"/>
+                <a href="https://www.facebook.com/FINKI.ukim.mk/" target="_blank">Facebook</a>
+        </div>
+        <div id="ins">
+            <img src="instagram.png" height="512" width="512"/>
+            <a href="https://www.instagram.com/spfinki/" target="_blank">Instagram</a>
+        </div>
+        <div id="vib">
+            <img src="viber.png" height="512" width="512"/>
+            <a href="https://www.viber.com/en/blog/2021-01-22/transferring-chats-to-viber/" target="_blank">555-1234</a>
+        </div>
+            <h1>
+                Or find us at this <a href="https://maps.app.goo.gl/xM2E4nxY89RMpaSb6" target="_blank">location.</a>
+            </h1>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#booking">Book A Spot</a></li>
+            <li><a href="#price">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
